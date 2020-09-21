@@ -26,6 +26,7 @@ $ ./Rdf2Feature.sh
 ```
 
 **List of possibe configurations**
+
 You need to modify the `config.properties` file before running the framwork. The list of possible configuration options are:
 ```
 INPUT_DATA=/inputDataDirectory
