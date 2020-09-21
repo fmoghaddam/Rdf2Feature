@@ -27,3 +27,6 @@ hs_err_pid*
 /bin/
 /data/
 /data2/
+/data3/
+onlydeep_3_output.tsv
+onlydeep_3_up_1_output.tsv

@@ -18,7 +18,6 @@ public class GenrateGraphData {
 				StringBuilder result = new StringBuilder();
 				final String[] parts = line.split("->");
 				for(int i=0;i<parts.length;i++) {
-					String part = parts[i];
 					if(i==0) {
 						result.append("{source: \"");
 						result.append("accident\",");

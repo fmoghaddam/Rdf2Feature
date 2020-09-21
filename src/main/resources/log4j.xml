@@ -15,7 +15,7 @@
 
 
 		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%d: [%p,%c{1}] '%t' %m%n" />
+			<param name="ConversionPattern" value="%m%n" />
 		</layout>
 		
 	</appender>
@@ -26,7 +26,7 @@
 		<param name="MaxFileSize" value="50000KB" />
 		<param name="MaxBackupIndex" value="14" />
 		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%d: [%p,%c{1}] '%t' %m%n" />
+			<param name="ConversionPattern" value="%m%n" />
 		</layout>
 		<filter class="org.apache.log4j.varia.LevelRangeFilter">
                         <param name="levelMin" value="INFO" />
@@ -39,7 +39,7 @@
 		<param name="MaxFileSize" value="50000KB" />
 		<param name="MaxBackupIndex" value="14" />
 		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%d: [%p,%c{1}] '%t' %m%n" />
+			<param name="ConversionPattern" value="%m%n" />
 		</layout>
 		<filter class="org.apache.log4j.varia.LevelRangeFilter">
                         <param name="levelMin" value="WARN" />

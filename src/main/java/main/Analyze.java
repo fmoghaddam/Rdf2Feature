@@ -503,6 +503,7 @@ public class Analyze {
 				String filePath = child.getAbsolutePath();
 				try {
 					model.read(filePath);
+					break;
 				} catch (Exception e) {
 					LOG.error("can not read " + filePath);
 					e.printStackTrace();
